@@ -5,7 +5,6 @@ import { cartReducer } from './Reducers';
 const Cart = createContext();
 
 const Context = ({children}) => {
-
  const products = [...Array(20)].map(()=>({
     id: faker.datatype.uuid(),
     name: faker.commerce.productName(),
